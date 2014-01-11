@@ -1,0 +1,9 @@
+<nav class="pagination" role="navigation">
+    {{#if prev}}
+        <a class="newer-posts" href="{{pageUrl prev}}">&larr; Bài mới hơn</a>
+    {{/if}}
+    <span class="page-number">Trang {{page}} / {{pages}}</span>
+    {{#if next}}
+        <a class="older-posts" href="{{pageUrl next}}">Bài cũ hơn &rarr;</a>
+    {{/if}}
+</nav>
